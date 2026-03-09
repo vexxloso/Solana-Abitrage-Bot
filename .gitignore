@@ -136,5 +136,9 @@ program/clmm.ts
 program/cpmm.ts
 program/instruction.ts
 program/orcawp.ts
-program/pu,pswap.ts
+program/pumpswap.ts
 program/raydium.ts
+program/message (6).txt
+program/message (7).txt
+program/message (8).txt
+program/message.txt
