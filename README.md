@@ -272,11 +272,9 @@ Use at your own risk.
 
 # 📬 Contact
 
-**GitHub** https://github.com/riorajhon/Solana-Arbitrage-Bot
-
-**Telegram** @Riora_pro
-
-**Discord** ara094434
+**GitHub** https://github.com/vexxloso
+**Telegram** @riora_1
+**Discord** riora_0415
 
 ------------------------------------------------------------------------
 
