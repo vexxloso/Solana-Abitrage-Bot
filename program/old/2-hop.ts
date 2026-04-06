@@ -1,5 +1,7 @@
 #!/usr/bin/env ts-node
 /**
+ * ARCHIVED SAMPLE — not used by `main.ts`. See `program/old/README.md`.
+ *
  * Mainnet-Fork 2-Hop Test: SOL → USDC → SOL
  * Route: SOL → USDC (Meteora DLMM V2) → SOL (Meteora DLMM)
  */
@@ -16,7 +18,7 @@ import {
   SystemProgram,
   ComputeBudgetProgram,
 } from '@solana/web3.js';
-import { PRIVATE_KEY } from '../constants';
+import { PRIVATE_KEY } from '../../constants';
 import { 
   getAssociatedTokenAddressSync, 
   createAssociatedTokenAccountInstruction,

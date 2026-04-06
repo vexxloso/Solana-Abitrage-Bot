@@ -1,5 +1,7 @@
 #!/usr/bin/env ts-node
 /**
+ * ARCHIVED SAMPLE — not used by `main.ts`. See `program/old/README.md`.
+ *
  * Mainnet-Fork 2-Hop Test: SOL → PUMP → SOL
  * Route: SOL → PUMP (Raydium CLMM V2) → SOL (Pump.Fun AMM)
  */

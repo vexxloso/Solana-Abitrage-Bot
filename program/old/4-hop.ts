@@ -1,5 +1,7 @@
 #!/usr/bin/env ts-node
 /**
+ * ARCHIVED SAMPLE — not used by `main.ts`. See `program/old/README.md`.
+ *
  * Mainnet-Fork 4-Hop Arbitrage Test with Address Lookup Table
  * Route: SOL → USDC → USDT → Em8D → SOL
  * 

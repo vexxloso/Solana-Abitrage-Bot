@@ -1,5 +1,7 @@
 #!/usr/bin/env ts-node
 /**
+ * ARCHIVED SAMPLE — not used by `main.ts`. See `program/old/README.md`.
+ *
  * Mainnet-Fork 3-Hop Test with Address Lookup Table
  * Tests: SOL → USDC → TRUMP → SOL using ALT to reduce transaction size
  */
@@ -24,8 +26,8 @@ import {
   TOKEN_PROGRAM_ID as SPL_TOKEN_PROGRAM_ID,
 } from '@solana/spl-token';
 import bs58 from 'bs58';
-import { buildArbitrageInstructionData, DexProgram, ArbitrageRoute } from './program/instruction';
-import { PRIVATE_KEY , RPC_ENDPOINT} from './constants';
+import { buildArbitrageInstructionData, DexProgram, ArbitrageRoute } from './instruction';
+import { PRIVATE_KEY, RPC_ENDPOINT } from '../../constants';
 const PROGRAM_ID = new PublicKey('CJrTqPA9Y37bxE6VXRtjTkK8irRrEWuKh5gHSsqXJrVt');
 const TOKEN_PROGRAM_ID = new PublicKey('TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA');
 const ORCA_WHIRLPOOL_PROGRAM_ID = new PublicKey('whirLbMiicVdio4qvUfM5KAg6Ct8VwpYzGff3uctyCc');

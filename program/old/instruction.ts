@@ -1,3 +1,8 @@
+/**
+ * ARCHIVED — used only by `program/old/*.ts` samples, not by `main.ts`.
+ * Encoding and program id differ from `program/instruction.ts`. See `program/old/README.md`.
+ */
+
 import { PublicKey } from '@solana/web3.js';
 
 /**
